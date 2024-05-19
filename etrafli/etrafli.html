@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daha Ətraflı</title>
+    <style>
+      body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.background-section {
+    background: linear-gradient(rgba(0, 0, 0 , 0.5),#99e0f4c5),
+    url(chemical-industry-is-switching-to-renewable-carbon-2000x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Arxa planın sabilənməsi */
+    height: 100vh;
+}
+
+
+.content {
+    text-align: center;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.607); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.content h1, .content p {
+    margin: 0 0 10px 0; 
+    font-size: 20px;
+    
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        padding: 15px;
+        width: 90%;
+        max-width: 500px;
+    }
+}
+@media (max-width: 480px) {
+    .background-section {
+       background-attachment: scroll;
+    }
+    .content {
+        width: 95%;
+        max-width: 400px;
+        padding: 10px;
+    }
+    .content h1 {
+        font-size: 24px; /* Kiçik ekranda başlıq ölçüsünü azaltmaq */
+    }
+    .content p {
+        font-size: 16px; /* Kiçik ekranda paragraf metninin ölçüsünü azaltmaq */
+    }
+}
+/*section 2 */
+.next {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c6e3f2; 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.next1 {
+    flex: 1;
+    padding-right: 20px; 
+    width: 50%;
+}
+
+.next1 h2 {
+    margin-bottom: 10px; 
+}
+
+.next1 p {
+    margin-bottom: 5px; 
+    font-size: 25px;
+}
+
+.next1 small {
+    color: rgb(11, 82, 182);
+    display: block; /* Kiçik mətni blok element kimi göstərmək üçün */
+    margin-top: 10px; 
+}
+
+.next img {
+    border-radius: 7px;
+    max-width:100%; /* Şəklin maksimum genişliyi */
+    height: auto; /* Şəkilin hündürlüyü avtomatik olaraq ayarlanır */
+}
+@media (max-width: 768px) {
+    .next1 h2 {
+        font-size: 20px;
+    }
+    .next1 p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .next1 h2 {
+        font-size: 18px;
+    }
+    .next1 p {
+        font-size: 12px;
+    }
+}
+
+
+/* section 3 */
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    max-width: auto;
+    font-size: 20px;
+    color:#217ccc;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+
+}
+.title-text p::after{
+   content:'';
+   width: 50px;
+   height: 35px ;
+   background: linear-gradient(#b4d8d5,#a9ebf1);
+   position:absolute ;
+   top: -20px;
+   left: 0;
+   z-index:-1;
+   transform: rotate(20deg);
+}
+
+
+.title-text h1{
+    font-size: 50px;
+}
+#footer{
+    padding: 100px 0 20px;
+    background:rgb(252, 254, 255) ;
+    position: relative;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left .footer-right{
+    flex-basis: 45;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height:35px;
+}
+.footer-img{
+    max-width: 370px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+.social-links{
+    text-align: center;
+}
+.social-links img{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    cursor: pointer;
+    margin: 40px 5px 0;
+    transition: .5s;
+}
+.social-links img:hover{
+color: #fff;
+transform: translateY(-7px);
+}
+.social-links p{ 
+    font-size: 12px;
+    margin-top:20px ;
+}
+@media screen and (max-width: 770px){
+    .footer-left .footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .footer-img{
+        top:25%;
+    }
+
+}
+
+     
+
+
+
+    </style>
+</head>
+<body>
+    <!--section 1-->
+    
+    <section class="background-section">
+        <div class="content">
+            <h1>SOCAR Metanol Zavodu</h1>
+            <h4>&#127981;</h4>
+            <p>Bakının Qaradağ rayonunda yerləşən Metanol zavodu 2013-cü ildə istismara verilib və ölkədə qaz-kimya sahəsində çalışan ilk istehsalat obyekti olub. Zavodun qurulmasında İngiltərənin "ICI" firmasının aşağıtəzyiqli metanol istehsalı texnologiyası tətbiq edilib. Zavod 2016-cı ilin noyabr ayında SOCAR-ın törəmə müəssisəsi olan “SOCAR Methanol” MMC tərəfindən təhvil alınıb, 2018-ci ilin oktyabr ayından SOCAR-ın strukturuna daxil edilib.
+                Metanol zavodunun illik istehsal gücü 561 min ton, ümumi ərazisi 36,5 hektar təşkil edir.
+
+Zavodun istehsal prosesinə xammal-qaz qarışığının hazırlanması, yüksək təzyiqli su buxarı istehsalı, xammalın su buxarının iştirakı ilə riformonqi, riforminq qazı əsasında metanolun sintezi və xam metanolun zənginləşdirilməsi bölmələri daxildir.
+            </p>
+        </div>
+    </section>
+    <!--section 2-->
+    <section class="next">
+        <div class="next1">
+            <h1><img src="oil-pump.png" alt="oil" width="250px" height="250px"></h1>
+            <p>İstehsal olunan metanolun satışı SOCAR-ın Marketinq və İqtisadi Əməliyyatlar İdarəsi tərəfindən həyata keçirilir. Ümumi satışın 97%-dən çoxu ixraca yönəldilir və 2021-ci ildə bu göstərici 98,8% təşkil edib.
+
+                Zavodun yerləşmə mövqeyi istehsal olunan məhsulun səmərəli şəkildə xarici bazarlara daşınmasında əhəmiyyətli rol oynayır. İxraca göndərilən məhsul “Azərbaycan Dəmir Yolları” QSC-nin Qaradağ stansiyasından Gürcüstan Dəmir Yolu İdarəsinin Parto-Tskali stansiyasına, oradan isə Gürcüstanda yerləşən Kulevi dəniz limanına göndərilir. Daşınma zavoda məxsus olan 252 ədəd çənli vaqonlar vasitəsilə aparılır. </p>
+            <small>Zavodun ümumi ərazisi 36,5 hektar təşkil edir.</small>
+        </div>
+        <img src="y.jpg" alt="template" >
+    </section>
+
+    <!--section 3-->
+    <section id="footer">
+        <img src="oil.png" alt="sekil" class="footer-img">
+        <div class="title-text">
+            <p>Əlaqə</p>
+            <h2>Əlavə məlumat üçün əlaqə vasitələri</h2>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Poçt və əlaqə nömrələri</h1>
+                <p>socar@az</p>
+                <p>+994 xxx xx xx</p>
+                <p>Müəllif hüquqları qorunur © 2024</p>
+            </div>
+            <div class="footer-right">
+                <h1>Əlavə məlumat</h1>
+                <p>https://socar.az/az/page/metanol-zavodu2</p>
+                <p>https://maps.app.goo.gl/YsLdTKdZ4pzkaQtH8</p>
+                <p>Qaradag, SOCAR Methanol Company</p>
+            </div>
+        </div>
+    
+    <div class="social-links">
+        <i class="icon1"><img src="phone-call.png" alt="sekil" width="50px" height="50px"></i>
+        <i class="icon2"><img src="linkedin.png" alt="sekil" width="50px" height="50px"></i>
+        <i class="icon3"><img src="gmail.png" alt="sekil" width="50px" height="50px"></i>
+        <i class="icon4"><img src="facebook.png" alt="sekil" width="50px" height="50px"></i>
+        <p>SOCAR DOWNSTREAM</p>
+       
+    
+    </div>
+    
+    
+    </section>
+    
+
+</body>
+</html>
