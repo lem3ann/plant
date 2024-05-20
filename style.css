@@ -67,7 +67,7 @@ height: 100vh;
 position: fixed;
 right: -250px;
 top: 0;
-background:#068484;
+background:#0772c4;
 z-index: 2;
 transition:0.5s;
 }
@@ -83,7 +83,7 @@ nav ul li a{
 #menuBtn{
     width: 50px;
     height: 50px;
-    background:#068484 ;
+    background:#0772c4;
     text-align: center;
     position: fixed;
     right: 30px;
@@ -111,7 +111,10 @@ nav ul li a{
 #feature{
     width: 100%;
     padding: 70px 0;
-    background-color: rgb(228, 239, 240);
+    background: linear-gradient(rgba(110, 110, 110, 0.529),#e1e8e8f8),
+    url(pic/ü.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /*background-color: rgb(52, 141, 149);*/
 
 }
 .title-text{
@@ -121,7 +124,7 @@ nav ul li a{
 .title-text p{
     max-width: auto;
     font-size: 20px;
-    color:#095e5ed0;
+    color:#2335c3d0;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -132,12 +135,12 @@ nav ul li a{
    content:'';
    width: 50px;
    height: 35px ;
-   background: linear-gradient(#b4d8d5,#a9ebf1);
+   background: linear-gradient(#81d1ea,#90bbf4);
    position:absolute ;
    top: -20px;
    left: 0;
    z-index:-1;
-   transform: rotate(20deg);
+   transform: rotate(30deg);
 }
 
 
@@ -167,7 +170,7 @@ nav ul li a{
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color:#54b2c5;
+    color:#091214;
 }
 .features-desc{
     display: flex;
@@ -301,7 +304,7 @@ hr{
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #068484;
+    box-shadow: 0 10px 20px 3px #71b1d1;
     cursor: pointer;
     transition: transform .5s;
 }
@@ -332,7 +335,7 @@ hr{
 /* */
 #footer{
     padding: 100px 0 20px;
-    background:#00a4a481 ;
+    background:#74d2ec81 ;
     position: relative;
 }
 .footer-row{
