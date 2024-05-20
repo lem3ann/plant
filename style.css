@@ -67,7 +67,7 @@ height: 100vh;
 position: fixed;
 right: -250px;
 top: 0;
-background:#0772c4;
+background:#015290;
 z-index: 2;
 transition:0.5s;
 }
@@ -83,7 +83,7 @@ nav ul li a{
 #menuBtn{
     width: 50px;
     height: 50px;
-    background:#0772c4;
+    background:#015290;
     text-align: center;
     position: fixed;
     right: 30px;
